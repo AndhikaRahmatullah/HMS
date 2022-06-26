@@ -623,8 +623,8 @@ video {
   float: left;
 }
 
-.ml-44{
-  margin-left: 11rem;
+.ml-5{
+  margin-left: 1.25rem;
 }
 
 .mt-3{
@@ -639,24 +639,12 @@ video {
   margin-top: 1.25rem;
 }
 
-.ml-5{
-  margin-left: 1.25rem;
-}
-
 .mb-4{
   margin-bottom: 1rem;
 }
 
 .mb-1{
   margin-bottom: 0.25rem;
-}
-
-.ml-20{
-  margin-left: 5rem;
-}
-
-.ml-10{
-  margin-left: 2.5rem;
 }
 
 .block{
@@ -691,10 +679,6 @@ video {
   height: 100%;
 }
 
-.w-40{
-  width: 10rem;
-}
-
 .w-full{
   width: 100%;
 }
@@ -703,28 +687,20 @@ video {
   width: 8rem;
 }
 
-.min-w-full{
-  min-width: 100%;
-}
-
 .max-w-\[22rem\]{
   max-width: 22rem;
-}
-
-.max-w-full{
-  max-width: 100%;
 }
 
 .transform{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.resize{
-  resize: both;
+.cursor-default{
+  cursor: default;
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.resize{
+  resize: both;
 }
 
 .grid-cols-1{
@@ -761,15 +737,6 @@ video {
 
 .justify-items-center{
   justify-items: center;
-}
-
-.gap-x-3{
-  -moz-column-gap: 0.75rem;
-       column-gap: 0.75rem;
-}
-
-.gap-y-5{
-  row-gap: 1.25rem;
 }
 
 .gap-y-4{
@@ -813,24 +780,8 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pt-16{
-  padding-top: 4rem;
-}
-
-.pl-52{
-  padding-left: 13rem;
-}
-
 .pt-7{
   padding-top: 1.75rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pl-32{
-  padding-left: 8rem;
 }
 
 .pl-44{
@@ -849,14 +800,9 @@ video {
   font-family: Lora, serif;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-xl{
@@ -872,11 +818,6 @@ video {
 .text-lg{
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-medium{
@@ -965,11 +906,5 @@ video {
   .md\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1280px){
-  .xl\:ml-44{
-    margin-left: 11rem;
   }
 }
