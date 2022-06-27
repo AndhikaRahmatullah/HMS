@@ -5,6 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link href="output.css" rel="stylesheet" />
+		<script src="../jquery.js"></script>
 		<title>HMS</title>
 	</head>
 	<body>
@@ -151,15 +152,40 @@
 			</div>
 		</section>
 
-		<section class="bg-green-700">
+		<section class="bg-green-700 p-10">
 			<div class="">
-				<p class="font-b text-lg md:text-3xl text-slate-50 ml-5 py-5 text-center">
+				<p class="font-b text-lg md:text-3xl text-slate-50 md:ml-5 py-5 md:text-center">
 					Selamat menjalankan Ujian Akhir Semester offline, kawan HMS. <br />
-					Semangat mengejar impian ! Jangan push rank terus !
+					Semangat mengejar impian ! Jangan push rank terus ! <br />
+					Berdoa jangan lupa sebelum dan saat ujian !
+				</p>
+			</div>
+
+			<!-- doa -->
+			<div class="text-right md:text-left mt-5 font-b text-xl text-slate-50">
+				<p class="">Doa sebelum Ujian : <button class="cursor-pointer bg-slate-50 text-green-700 px-2 rounded-xl italic" id="lihatsatu">Lihat disini</button></p>
+				<p class="mt-7 hidden" id="target1">
+					<i class="bg-slate-50 text-green-700 px-2 py-1">Rabbisyrabli shadri wayassyirli amrl wahlul uqdatam mil-lisani yafwahu qauli</i><br />
+					Artinya: Ya Tuhan, lapangkanlah dadaku, mudahkanlah segala urusanku, dan lepaskanlah kelakuan lidahku, agar mereka mengerti perkataanku.
+				</p>
+			</div>
+			<div class="mt-14 font-b text-xl text-slate-50">
+				<p class="">Doa saat Ujian : <button class="cursor-pointer bg-slate-50 text-green-700 px-2 rounded-xl italic" id="lihatdua">Lihat disini</button></p>
+				<p class="mt-7 hidden" id="target2">
+					<i class="bg-slate-50 text-green-700 px-2 py-1">Rabbanaa aatinaa mil ladunka rahmataw wa hayyi-lanaa min amrinaa rasyadaa</i><br />
+					Artinya: Ya Allah, ya Tuhan kami, berilah kami di sisi-Mu suatu rahmat dan persiapkan kami mengenai urusan kami dengan petunjuk-Mu
+				</p>
+			</div>
+			<div class="text-right md:text-left mt-14 font-b text-xl text-slate-50">
+				<p class="">Doa agar Diberi Kemudahan : <button class="cursor-pointer bg-slate-50 text-green-700 px-2 rounded-xl italic" id="lihattiga">Lihat disini</button></p>
+				<p class="mt-7 hidden" id="target3">
+					<i class="bg-slate-50 text-green-700 px-2 py-1">Allahummal thuf bii fii taisiiri kulli ‘asiirin, fa inna taisiira kulli ‘asiirin ‘alaika yasiir, as’alukal yusra wal mu’aafaata fid dun yaa wal aakhirati</i><br />
+					Artinya: Ya Allah, mudahkanlah aku dalam berusaha memudahkan setiap kesukaran, karena memudahkan setiap yang suka merupakan suatu kemudahan bagi-Mu. Aku memohon kemudahan dan keselamatan di dunia dan akhirat.
 				</p>
 			</div>
 		</section>
 
 		<script src="../node_modules/tw-elements/dist/js/index.min.js"></script>
+		<script src="./script.js"></script>
 	</body>
 </html>
